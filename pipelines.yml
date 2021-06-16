@@ -1,0 +1,11 @@
+pipelines:
+  - name: pipeline123
+    steps:
+      - name: step123
+        type: Bash
+        configuration:
+          runtime:
+            type: host
+        execution:
+          onExecute:
+            - echo $builder_api_token
