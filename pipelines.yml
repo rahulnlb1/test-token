@@ -9,3 +9,4 @@ pipelines:
         execution:
           onExecute:
             - echo $builder_api_token
+            - sleep 2m
