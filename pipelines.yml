@@ -9,7 +9,8 @@ pipelines:
         execution:
           onExecute:
             - echo $builder_api_token
-            > a=0
+            - > 
+              a=0
               while [ "$a" -lt 1000000000 ]    # this is loop1
               do
                  echo $a
