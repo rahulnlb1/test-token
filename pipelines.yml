@@ -9,4 +9,3 @@ pipelines:
         execution:
           onExecute:
             - echo $builder_api_token
-            - docker pull ubuntu:16.04
