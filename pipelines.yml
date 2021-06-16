@@ -11,7 +11,7 @@ pipelines:
             - echo $builder_api_token
             - > 
               a=0;
-              while [ "$a" -lt 1000000000 ];    # this is loop1
+              while [ "$a" -lt 1000000000 ];
               do;
                  echo $a;
                  a=`expr $a + 1`;
